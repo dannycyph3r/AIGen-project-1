@@ -1,0 +1,11 @@
+/* Set the border-radius property to round the edges of the Rubik's Cube */
+.mesh {
+    border-radius: 10px;
+  }
+  
+  /* Apply a shiny material to the Rubik's Cube */
+  .mesh .material {
+    color: #FFFFFF; /* Set the base color to white */
+    specular: #FFFFFF; /* Set the specular highlight color to white */
+    shininess: 100; /* Increase the shininess value for a shinier material */
+  }
